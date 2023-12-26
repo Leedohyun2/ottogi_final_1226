@@ -6,7 +6,7 @@ body {
 }
 
 .circle {
-    background: url(../images/circle-scatter-haikei.svg) no-repeat;
+    background: url(/images/product/circle-scatter-haikei.svg) no-repeat;
 }
 
 .prd-wrap {
@@ -35,7 +35,7 @@ body {
     display: block;
     height: 147px;
     margin: 50px auto;
-    background: url(../images/product_info.svg) no-repeat 50% / 100%;
+    background: url(/images/product/product_info.svg) no-repeat 50% / 100%;
     font-size: 0;
     color: transparent;
     letter-spacing: 62.4px;
@@ -63,7 +63,7 @@ body {
     width: 24px;
     height: 24px;
     margin-top: -12px;
-    background: url(../images/ico_search.svg) no-repeat 50% 50% / 24px 24px;
+    background: url(/images/product/ico_search.svg) no-repeat 50% 50% / 24px 24px;
 }
 
 input {
@@ -168,9 +168,161 @@ button {
     transition: 0.6s linear;
     transform: scale(1.2);
     overflow: hidden;
-    
+
 }
 
 /* .prd-img {
     overflow: hidden;
 } */
+
+
+/* 메인 이미지 */
+.main {
+    width: 100%;
+    min-width: 1280px;
+    height: 424px;
+    background: url(/images/company/story_visual_banner_pc.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
+
+.main h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 32px;
+    font-size: 45px;
+    color: #222222;
+}
+
+.section.no-pad-bot {
+    padding-bottom: 0;
+}
+
+/* 회사개요 회사연혁 제품연혁 */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0;
+}
+
+.container2 {
+    width: 1200px;
+    margin: auto;
+}
+
+.cnb3 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.cnb3 ul {
+    display: flex;
+    height: 124px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.cnb3 a.on:hover {
+    color: #dc2c34;
+    border-bottom: 5px solid #dc2c34;
+}
+
+.on {
+    display: block;
+    color: #666;
+    width: 240px;
+    height: 75px;
+    font-size: 18px;
+}
+
+.dep3 {
+    height: 100px;
+    line-height: 50px;
+    border-bottom: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+
+.dep3 ul.cnb3 li {
+    width: 33.3333%;
+}
+
+.breadcruma {
+    font-size: 14px;
+    color: #666;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #666;
+}
+
+*,
+::before,
+*:after {
+    box-sizing: inherit;
+}
+
+.breadcrumb::before {
+    content: "/";
+    color: #666666;
+    vertical-align: top;
+    /* display: inline-block; */
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 3px 0 3px;
+}
+
+.path {
+    height: 80px !important;
+    line-height: 60px;
+}
+
+/* .btnTop a {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    text-indent: -9999px;
+    display: block;
+    background-color: rgba(28, 56, 99, 0.5);
+    background: url(/images/company/btn_Top.jpg) no-repeat center center;
+    z-index: 3333333333333333333333;
+} */
+
+.fixed_area {
+    right: 10px;
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    z-index: 200;
+  }
+  
+  .btn_top.on {
+    display: block;
+  }
+  
+  .btn_top {
+    width: 80px;
+    height: 72px;
+    background: url(/images/common/btn_top_pc.svg) no-repeat 0 0 / 100%;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
+  }
+  .sr_only {
+    position: absolute;
+    top: -99999px;
+    font-size: 0;
+    height: 0;
+  }

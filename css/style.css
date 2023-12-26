@@ -5,6 +5,7 @@
    margin: 0;
    box-sizing: border-box;
    font-family: 'Nanum Gothic', sans-serif;
+   scroll-behavior: smooth;
 }
 
  /* Color */
@@ -81,7 +82,7 @@ li {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: url(../images/wave-haikei.svg);
+   background: url(/images/main/wave-haikei.svg);
 }
 
 .header_container {

@@ -3,6 +3,7 @@
    margin: 0;
    box-sizing: border-box;
    font-family: 'Nanum Gothic', sans-serif;
+   scroll-behavior: smooth;
 }
 
 
@@ -363,7 +364,7 @@ li {
 }
 
 /* 위로가기 버튼 */
-.btn_Top {
+/* .btn_Top {
    position: fixed;
    bottom: 0;
    right: 0;
@@ -377,7 +378,32 @@ li {
 
 .top_up_btn {
    float: right;
-}
+} */
+
+.fixed_area {
+   right: 10px;
+   width: 80px;
+   position: fixed;
+   bottom: 20px;
+   z-index: 200;
+ }
+ 
+ .btn_top.on {
+   display: block;
+ }
+ 
+ .btn_top {
+   width: 80px;
+   height: 72px;
+   background: url(/images/common/btn_top_pc.svg) no-repeat 0 0 / 100%;
+   filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
+ }
+ .sr_only {
+   position: absolute;
+   top: -99999px;
+   font-size: 0;
+   height: 0;
+ }
 
 /* 이미지 일정시간 간격으로 변경 */
 .img_area {

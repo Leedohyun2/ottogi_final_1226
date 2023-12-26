@@ -30,3 +30,16 @@ $('.lang_menu_btn').on('click', function () {
       }
    })
 });
+
+// button Top
+var btnTop = document.querySelector('.btn_top');
+
+window.addEventListener("scroll", function () {
+    var scrollY = window.scrollY || document.documentElement.scrollTop;
+
+    if (scrollY > 180) {
+        btnTop.classList.add("on");
+    } else {
+        btnTop.classList.remove("on");
+    }
+});

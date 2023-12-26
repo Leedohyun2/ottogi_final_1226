@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- Script -->
-    <script src="../js/jquery-3.7.1.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/main.js"></script>
     <!-- Favicon -->
-    <link rel="icon" href="../images/common/favicon.ico">
+    <link rel="icon" href="/images/common/favicon.ico">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -168,7 +168,7 @@
                         <h3 style="font-weight: bold;">(주) 오뚜기는 인류의 식생활 향상과<br> 건강에 이바지하는 기업입니다.</h3>
                     </div>
                     <div class="about-img">
-                        <img src="../images/company/img_company1.jpg" alt="" style="width: 1200px; border-radius: 20px;">
+                        <img src="/images/company/img_company1.jpg" alt="" style="width: 1200px; border-radius: 20px;">
                     </div>
                     <div class="about-txt">
                         <p style="font-size: 18px;line-height: 32px;font-weight: bold;text-align: center;">
@@ -191,7 +191,7 @@
                             노력하는 기업입니다.</p>
                     </div>
                     <div class="about-img">
-                        <img src="../images/company/img_company2.jpg" alt=""
+                        <img src="/images/company/img_company2.jpg" alt=""
                             style="border-radius: 130px;position: relative;right: 50px">
                     </div>
                 </li>
@@ -204,7 +204,7 @@
                             만드는 기업입니다.</p>
                     </div>
                     <div class="about-img">
-                        <img src="../images/company/img_company3.jpg" alt=""
+                        <img src="/images/company/img_company3.jpg" alt=""
                             style="border-radius: 130px;position: relative;left: 50px;">
                     </div>
                 </li>
@@ -214,7 +214,7 @@
 
     <!-- 기업 이념 page -->
     <div class="container ph2">
-        <img src="../images/company/img_company4.jpg" alt="">
+        <img src="/images/company/img_company4.jpg" alt="">
         <div class="page-box">
             <p style="font-weight: bold;">
                 오뚜기는 인류에게 필요한 기업이 되고자 합니다.
@@ -257,11 +257,17 @@
             <div class="item">
                 <h4 class="tit">#생활신조</h4>
                 <div class="con">
-                    <img src="../images/company/about1213.jpg" alt="">
+                    <img src="/images/company/about1213.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <div class="fixed_area">
+        <a href="#" class="btn_top on">
+            <span class="sr_only">상단으로 이동하기</span>
+        </a>
+    </div>
+
 
     <footer class="footer">
         <div class="footer_wrap">
@@ -279,16 +285,16 @@
                     <span class="f_right">
                         <ul>
                             <li><a href="#none">
-                                    <img src="./images/footer1.png" alt="">
+                                    <img src="../images/main/footer1.png" alt="">
                                 </a></li>
                             <li><a href="#none">
-                                    <img src="./images/footer2.png" alt="">
+                                    <img src="../images/main/footer2.png" alt="">
                                 </a></li>
                             <li><a href="#none">
-                                    <img src="./images/footer3.png" alt="">
+                                    <img src="../images/main/footer3.png" alt="">
                                 </a></li>
                             <li><a href="#none">
-                                    <img src="./images/footer4.png" alt="">
+                                    <img src="../images/main/footer4.png" alt="">
                                 </a></li>
                         </ul>
                     </span>
@@ -298,7 +304,7 @@
             <div class="footer_bottom_wrap">
                 <div class="footer_bottom_container">
                     <ul>
-                        <li class="b_left"><img src="./images/f_logo.jpg" alt=""></li>
+                        <li class="b_left"><img src="../images/main/f_logo.jpg" alt=""></li>
                         <li class="b_right">
                             <p>(주)오뚜기 | 사업자등록번호 : 138-81-03238 | 대표이사 황성만 |</p>
                             <p>주소 (14060) 경기도 안양시 동안구 흥안대로 405 (평촌동 160)오뚜기 고객상담실 : 080-024-2311</p>
@@ -308,15 +314,29 @@
                         </li>
                     </ul>
                     <div class="b_last_img">
-                        <img src="./images/footer_b_img1.gif" alt="">
+                        <img src="../images/main/footer_b_img1.gif" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="btnTop">
+    <!-- <div class="btnTop">
         <a href="about.html" class="btn_btmTop">TOP</a>
-    </div>
+    </div> -->
 </body>
+<script>
+    // button Top
+var btnTop = document.querySelector('.btn_top');
+
+window.addEventListener("scroll", function () {
+    var scrollY = window.scrollY || document.documentElement.scrollTop;
+
+    if (scrollY > 180) {
+        btnTop.classList.add("on");
+    } else {
+        btnTop.classList.remove("on");
+    }
+});
+</script>
 
 </html>

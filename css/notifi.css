@@ -6,6 +6,7 @@
    box-sizing: border-box;
    font-family: 'Nanum Gothic', sans-serif;
    /* font-family: 'Roboto Mono', monospace; */
+   scroll-behavior: smooth;
 }
 
 .hide {
@@ -414,3 +415,30 @@ em {
    top: 30px;
    right: 0px;
 }
+
+/* Top button */
+
+.fixed_area {
+   right: 10px;
+   width: 80px;
+   position: fixed;
+   bottom: 20px;
+   z-index: 200;
+ }
+ 
+ .btn_top.on {
+   display: block;
+ }
+ 
+ .btn_top {
+   width: 80px;
+   height: 72px;
+   background: url(/images/common/btn_top_pc.svg) no-repeat 0 0 / 100%;
+   filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
+ }
+ .sr_only {
+   position: absolute;
+   top: -99999px;
+   font-size: 0;
+   height: 0;
+ }

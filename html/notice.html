@@ -7,8 +7,8 @@
    <title>공지사항</title>
    <link rel="stylesheet" href="../css/notifi.css">
    <link rel="icon" href="../images/main/favi.ico">
-   <script src="js/jquery-3.7.1.min.js"></script>
-   <script src="js/jquery_main.js"></script>
+   <script src="../js/jquery-3.7.1.min.js"></script>
+   <script src="../js/jquery_main.js"></script>
 </head>
 
 <body>
@@ -269,6 +269,13 @@
       </div>
    </main>
 
+   <div class="fixed_area">
+      <a href="#" class="btn_top on">
+          <span class="sr_only">상단으로 이동하기</span>
+      </a>
+  </div>
+
+
    <!-- 푸터 -->
    <footer class="footer">
       <div class="footer_wrap">
@@ -323,5 +330,18 @@
    </footer>
 
 </body>
+<script>
+   // button Top
+var btnTop = document.querySelector('.btn_top');
 
+window.addEventListener("scroll", function () {
+   var scrollY = window.scrollY || document.documentElement.scrollTop;
+
+   if (scrollY > 180) {
+       btnTop.classList.add("on");
+   } else {
+       btnTop.classList.remove("on");
+   }
+});
+</script>
 </html>
