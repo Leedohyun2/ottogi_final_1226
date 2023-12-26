@@ -63,7 +63,7 @@ li {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: url(../images/wave-haikei.svg);
+   background: url(../images/main/wave-haikei.svg);
 }
 
 .header_container {
@@ -199,16 +199,12 @@ li {
    z-index: 4000;
 }
 
-.background_wrap {
-   background: url(../images/layered-waves-haikei.svg) no-repeat;
-}
-
 
 
 /* 메인 부분 */
 .sitemap_back {
    height: 300px;
-   background: url(../images/sitemap_back.jpg) no-repeat 50% 50%;
+   background: url(../images/main/sitemap_back.jpg) no-repeat 50% 50%;
    background-size: cover;
    text-indent: -9999px;
 }

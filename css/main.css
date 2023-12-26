@@ -68,7 +68,7 @@ li {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: url(../images/wave-haikei.svg);
+   background: url(../images/main/wave-haikei.svg);
 }
 
 .header_container {
@@ -217,7 +217,7 @@ li {
 }
 
 .background_wrap {
-   background: url(../images/layered-waves-haikei.svg) no-repeat;
+   background: url(../images/main/layered-waves-haikei.svg) no-repeat;
 }
 
 /* 메인 콘텐츠 */
@@ -336,7 +336,7 @@ li {
 
 /* 우측하단 팝업버튼 */
 .open_btn {
-   background: url(../images/btn_close.svg) no-repeat 0 0 / 100% 100%;
+   background: url(../images/main/btn_close.svg) no-repeat 0 0 / 100% 100%;
    position: fixed;
    bottom: 130px;
    right: 20px;
@@ -538,7 +538,7 @@ li {
 .main_hot_wrap {
    width: 100%;
    height: 600px;
-   background: url(../images/hot_main.jpg) no-repeat;
+   background: url(../images/main/hot_main.jpg) no-repeat;
    background-size: cover
 }
 
@@ -644,7 +644,7 @@ li {
 
 /* 오뚜기 레시피 */
 .kitchen_wrap {
-   background: url(../images/bg_festival.jpg) no-repeat;
+   background: url(../images/main/bg_festival.jpg) no-repeat;
    background-size: cover;
    height: 680px;
 }
@@ -783,7 +783,7 @@ li {
 
 .pick_cont {
    clear: both;
-   background: url(../ottugi_menu/main_brand.jpg);
+   background: url(../images/main/main_brand.jpg);
    background-size: cover;
    padding: 30px 40px;
    border-radius: 15px;
@@ -932,7 +932,7 @@ li {
 
 .new_pick_cont {
    clear: both;
-   background: url(../ottugi_new_menu/ottugi_new_menu_back.jpg);
+   background: url(../images/main/ottugi_new_menu_back.jpg);
    background-size: cover;
    padding: 30px 40px;
    border-radius: 15px;

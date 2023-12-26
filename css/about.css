@@ -209,15 +209,15 @@ body {
 }
 
 .philosophy .item .con ul li.icon1::before {
-    background: url(../images/ico_company1.svg) no-repeat 0 0 / 100% 100%;
+    background: url(../images/company/ico_company1.svg) no-repeat 0 0 / 100% 100%;
 }
 
 .philosophy .item .con ul li.icon2::before {
-    background: url(../images/ico_company2.svg) no-repeat 0 0 / 100% 100%;
+    background: url(../images/company/ico_company2.svg) no-repeat 0 0 / 100% 100%;
 }
 
 .philosophy .item .con ul li.icon3::before {
-    background: url(../images/ico_company3.svg) no-repeat 0 0 / 100% 100%;
+    background: url(../images/company/ico_company3.svg) no-repeat 0 0 / 100% 100%;
 }
 
 .philosophy .item .con ul li::before {

@@ -64,7 +64,7 @@ li {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: url(../images/wave-haikei.svg);
+   background: url(../images/main/wave-haikei.svg);
 }
 
 .header_container {
@@ -199,10 +199,6 @@ li {
    background: linear-gradient(0deg, rgba(150, 152, 124, 1) 0%, rgba(255, 242, 0, 1) 46%, rgba(254, 241, 0, 1) 99%);
    display: none;
    z-index: 4000;
-}
-
-.background_wrap {
-   background: url(../images/layered-waves-haikei.svg) no-repeat;
 }
 
 

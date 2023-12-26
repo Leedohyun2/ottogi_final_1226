@@ -8,7 +8,7 @@
   <script src="./js/jquery-3.7.1.min.js"></script>
   <script src="./js/main.js"></script>
   <!-- Favicon -->
-  <link rel="icon" href="./images/favicon.ico">
+  <link rel="icon" href="/images/common/favicon.ico">
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -148,7 +148,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: url(./images/wave-haikei.svg);
+      background: url(../images/main/wave-haikei.svg);
     }
 
     .header_container {
@@ -335,7 +335,8 @@
     /* Main - banner */
     .banner {
       width: 100%;
-      background: url(./images/img_mainImage.jpg);
+      min-width: 1440px;
+      background: url(/images/customer/img_mainImage.jpg);
       border-bottom: 24px solid var(--color-ottogi-red);
     }
 
@@ -481,7 +482,7 @@
     .process01::after,
     .process02::after,
     .process03::after {
-      content: url(./images/img_arrow_process.png);
+      content: url(/images/customer/img_arrow_process.png);
       display: block;
       position: absolute;
       top: 50%;
@@ -519,6 +520,7 @@
     /* Main - 고객상담센터 */
     .call_info_box {
       width: 100%;
+      max-width: 1440px;
       min-width: 608px;
       padding: 32px;
       margin-bottom: 72px;
@@ -916,7 +918,7 @@
     .btn_top {
       width: 80px;
       height: 72px;
-      background: url(./images/btn_top_pc.svg) no-repeat 0 0 / 100%;
+      background: url(/images/customer/btn_top_pc.svg) no-repeat 0 0 / 100%;
       filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
     }
 
@@ -1002,27 +1004,27 @@
   <div class="header_wrap">
     <div class="ottugi_title">
       <h1>오뚜기</h1>
-      <a href="/main/index.html">
-        <img src="./images/ottugi_logo.svg" alt="">
+      <a href="../index.html">
+        <img src="../images/main/ottugi_logo.svg" alt="">
       </a>
     </div>
     <div class="header_container">
       <div class="header_all_wrap">
         <nav class="header_nav">
           <ul>
-            <li><a href="/company/about.html">회사소개</a>
+            <li><a href="./about.html">회사소개</a>
               <ul>
-                <li><a href="/company/about.html">회사개요*</a></li>
-                <li><a href="/company/business.html">사업소개*</a></li>
-                <li><a href="/company/ceo.html">CEO 메세지*</a></li>
-                <li><a href="/company/history.html">연혁*</a></li>
-                <li><a href="/company/maps.html">오시는길*</a></li>
+                <li><a href="./about.html">회사개요*</a></li>
+                <li><a href="./business.html">사업소개*</a></li>
+                <li><a href="./ceo.html">CEO 메세지*</a></li>
+                <li><a href="./history.html">연혁*</a></li>
+                <li><a href="./maps.html">오시는길*</a></li>
               </ul>
             </li>
-            <li><a href="#none">ESG경영</a>
+            <li><a href="#">ESG경영</a>
               <ul>
                 <li><a href="#none">Overview</a></li>
-                <li><a href="/ESG/ESG.html">ESG경영소개*</a></li>
+                <li><a href="./ESG.html">ESG경영소개*</a></li>
                 <li><a href="#none">환경</a></li>
                 <li><a href="#none">사회</a></li>
                 <li><a href="#none">지배구조</a></li>
@@ -1032,14 +1034,14 @@
                 <li><a href="#none">ESG Data</a></li>
               </ul>
             </li>
-            <li><a href="/product/product.html">제품이야기</a>
+            <li><a href="./product.html">제품이야기</a>
               <ul>
-                <li><a href="/product/product.html">제품정보*</a></li>
-                <li><a href="/product/product_new.html">신제품*</a></li>
-                <li><a href="/product/recipe.html">인기레시피*</a></li>
+                <li><a href="./product.html">제품정보*</a></li>
+                <li><a href="./product_new.html">신제품*</a></li>
+                <li><a href="./recipe.html">인기레시피*</a></li>
               </ul>
             </li>
-            <li><a href="#none">브랜드경험</a>
+            <li><a href="#">브랜드경험</a>
               <ul>
                 <li><a href="#none">Overview</a></li>
                 <li><a href="#none">공식캐릭터</a></li>
@@ -1050,9 +1052,9 @@
                 <li><a href="#none">이벤트</a></li>
               </ul>
             </li>
-            <li><a href="#">홍보센터</a>
+            <li><a href="#none">홍보센터</a>
               <ul>
-                <li><a href="/notice/notice.html">공지사항*</a></li>
+                <li><a href="./notice.html">공지사항*</a></li>
                 <li><a href="#none">오뚜기뉴스룸</a></li>
                 <li><a href="#none">언론보도</a></li>
                 <li><a href="#none">CF스토리</a></li>
@@ -1060,9 +1062,9 @@
                 <li><a href="#none">투자정보</a></li>
               </ul>
             </li>
-            <li><a href="/customer/customer.html">고객서비스</a>
+            <li><a href="./customer.html">고객서비스</a>
               <ul>
-                <li><a href="/customer/customer.html">고객의 소리*</a></li>
+                <li><a href="./customer.html">고객의 소리*</a></li>
                 <li><a href="#none">접수내역조회</a></li>
                 <li><a href="#none">고객상담 프로세스</a></li>
                 <li><a href="#none">고객만족활동</a></li>
@@ -1073,31 +1075,35 @@
         <!-- 랭귀지, 챗봇등 -->
         <div class="lang_menu_btn">
           <a href="#none">
-            <img src="./images/free-icon-menu-3502458.png" alt="">
+            <img src="../images/main/free-icon-menu-3502458.png" alt="">
           </a>
         </div>
         <div class="lang">
           <div class="lang_down">
-            <a href="#">KR</a>
+            <a href="#none">KR
+              <img src="../images/main/lang_down.svg" alt="">
+            </a>
             <div class="lang_list">
               <p><a href="#none">KR</a></p>
               <p><a href="#none">EN</a></p>
             </div>
           </div>
           <div class="ottugi_search">
-            <a href="#none"><img src="./images/ottugi_search.svg" alt=""></a>
+            <a href="#none"><img src="../images/main/ottugi_search.svg" alt=""></a>
           </div>
           <div class="ottugi_chat">
-            <a href="customer_chatbot.html"><img src="./images/ottugi_chatbot.svg" alt=""></a>
+            <a href="#none"><img src="../images/main/ottugi_chatbot.svg" alt=""></a>
           </div>
           <div class="ottugi_mall">
-            <a href="#none"><img src="./images/ottugi_mall.svg" alt=""></a>
+            <a href="#none"><img src="../images/main/ottugi_mall.svg" alt=""></a>
           </div>
         </div>
       </div>
       <!-- 반응형 토글 버튼 -->
       <div class="toggle_btn">
-        <a href="#none"></a>
+        <a href="#none">
+          <img src="../images/main/littlemenu.svg" alt="">
+        </a>
       </div>
       <!-- 드롭다운메뉴 배경 -->
       <div class="nav_bg"></div>
@@ -1105,11 +1111,11 @@
   </div>
 
   <main id="main" class="main">
-    <img src="./images/img_mainImage.jpg" alt="중간 배너 이미지" class="banner">
+    <img src="/images/customer/img_mainImage.jpg" alt="중간 배너 이미지" class="banner">
     <div class="guide_wrap" id="guide">
       <section class="guide">
         <div class="guide_left">
-          <img src="./images/img_mainChart.png" alt="오뚜기 캐릭터">
+          <img src="/images/customer/img_mainChart.png" alt="오뚜기 캐릭터">
         </div>
         <div class="guide_right">
           <h2 class="guide_title">꼭 읽어주세요!</h2>
@@ -1119,7 +1125,7 @@
             <li>고객상담실에서는 본사 직원이
               <span class="consumer_dispute">
                 <a href="https://www.kca.go.kr/odr/cm/in/rsltnCrtral.do">소비자 분쟁 해결 기준
-                  <img src="./images/icon_arrow_dispute.svg" alt="소비자 분쟁 해결 기준 보러가기">
+                  <img src="/images/customer/icon_arrow_dispute.svg" alt="소비자 분쟁 해결 기준 보러가기">
                 </a> </span>&nbsp;&nbsp;&nbsp에 따라 신속하고 공정하게 처리해드리고 있습니다.
             </li>
             <li>홍보/광고성 내용은 관리자에 의해 삭제될 수 있습니다.</li>
@@ -1128,7 +1134,7 @@
                   자주묻는질문</a>
               </span>
               혹은 고객상담
-              <span class="chat_Bot"><img src="./images/icon_chatbot_main.svg" alt="챗봇 바로가기 아이콘"
+              <span class="chat_Bot"><img src="/images/customer/icon_chatbot.png" alt="챗봇 바로가기 아이콘"
                   class="popChat01">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp챗봇</span>을 통해서도 궁금하신 내용을 해결하실 수 있습니다.
             </li>
             <li>산업안전보건법에 의거하여 폭언 및 욕설 시 상담이 제한될 수 있음을 안내 드립니다.</li>
@@ -1151,7 +1157,7 @@
           <h2>고객상담 처리절차</h2>
           <ul>
             <li class="process01">
-              <img src="./images/icon_process01.png" alt="고객상담절차: 클레임 접수">
+              <img src="/images/customer/icon_process01.png" alt="고객상담절차: 클레임 접수">
               <dl>
                 <dt>클레임접수</dt>
                 <dd class="method">전화/홈페이지/챗봇</dd>
@@ -1161,7 +1167,7 @@
               </dl>
             </li>
             <li class="process02">
-              <img src="./images/icon_process02.png" alt="고객상담절차: 원인규명 및 해명">
+              <img src="/images/customer/icon_process02.png" alt="고객상담절차: 원인규명 및 해명">
               <dl>
                 <dt>원인규명 및 해명</dt>
                 <dd class="method">전화/방문상담</dd>
@@ -1171,7 +1177,7 @@
               </dl>
             </li>
             <li class="process03">
-              <img src="./images/icon_process03.png" alt="고객상담절차: 고객문의해결">
+              <img src="/images/customer/icon_process03.png" alt="고객상담절차: 고객문의해결">
               <dl>
                 <dt>고객문의해결</dt>
                 <dd class="method">피드백</dd>
@@ -1182,7 +1188,7 @@
               </dl>
             </li>
             <li class="process04">
-              <img src="./images/icon_process04.png" alt="고객상담절차: 제품/업무 개선">
+              <img src="/images/customer/icon_process04.png" alt="고객상담절차: 제품/업무 개선">
               <dl>
                 <dt>제품/업무개선</dt>
                 <dd class="method">교육 및 개선</dd>
@@ -1199,12 +1205,12 @@
         <h2>고객상담센터</h2>
         <div class="call_info_box">
           <p>
-            <img src="./images/icon_callcenter.png" alt="고객상담실 아이콘">
+            <img src="/images/customer/icon_callcenter.png" alt="고객상담실 아이콘">
             <span class="call_num01">오뚜기 고객상담실</span>
             <span class="call_num">080-433-8888</span>
           </p>
           <p>
-            <img src="./images/icon_callcenter.png" alt="고객상담실 아이콘">
+            <img src="/images/customer/icon_callcenter.png" alt="고객상담실 아이콘">
             <span class="call_num01">오뚜기라면 고객상담실</span>
             <span class="call_num">080-088-1212</span>
           </p>
@@ -1330,7 +1336,7 @@
               <input type="password" id="password" name="password" minlength="4" maxlength="16"
                 placeholder="비밀번호 4~16자리를 입력해 주세요.">
               <div class="password_bottom">
-                <img src="./images/icon_password.svg" alt="주의사항 아이콘">
+                <img src="/images/customer/icon_password.svg" alt="주의사항 아이콘">
                 <span>비밀번호는 추후 접수내역 조회 시에 활용되오니, 꼭 기억해
                   주세요.</span>
               </div>
@@ -1360,8 +1366,8 @@
                 <p>
                   <input type="checkbox" id="agreeCheckbox" required>
                   <label for="agreeCheckbox">개인정보 수집·이용 동의<span class="submit_required">(필수)</span></label>
-                  <img class="termDetail_open" src="./images/btn_detail_view.svg" alt="약관 상세 보기">
-                  <img class="termDetail_close" src="./images/btn_detail_toggleUp.svg" alt="약관 상세 보기">
+                  <img class="termDetail_open" src="/images/customer/btn_detail_view.svg" alt="약관 상세 보기">
+                  <img class="termDetail_close" src="/images/customer/btn_detail_toggleUp.svg" alt="약관 상세 보기">
                 </p>
               </form>
             </div>
@@ -1436,16 +1442,16 @@
           <span class="f_right">
             <ul>
               <li><a href="#none">
-                  <img src="./images/footer1.png" alt="">
+                  <img src="../images/main/footer1.png" alt="">
                 </a></li>
               <li><a href="#none">
-                  <img src="./images/footer2.png" alt="">
+                  <img src="../images/main/footer2.png" alt="">
                 </a></li>
               <li><a href="#none">
-                  <img src="./images/footer3.png" alt="">
+                  <img src="../images/main/footer3.png" alt="">
                 </a></li>
               <li><a href="#none">
-                  <img src="./images/footer4.png" alt="">
+                  <img src="../images/main/footer4.png" alt="">
                 </a></li>
             </ul>
           </span>
@@ -1455,7 +1461,7 @@
       <div class="footer_bottom_wrap">
         <div class="footer_bottom_container">
           <ul>
-            <li class="b_left"><img src="./images/f_logo.jpg" alt=""></li>
+            <li class="b_left"><img src="../images/main/f_logo.jpg" alt=""></li>
             <li class="b_right">
               <p>(주)오뚜기 | 사업자등록번호 : 138-81-03238 | 대표이사 황성만 |</p>
               <p>주소 (14060) 경기도 안양시 동안구 흥안대로 405 (평촌동 160)오뚜기 고객상담실 : 080-024-2311</p>
@@ -1465,13 +1471,13 @@
             </li>
           </ul>
           <div class="b_last_img">
-            <img src="./images/footer_b_img1.gif" alt="">
+            <img src="../images/main/footer_b_img1.gif" alt="">
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="/js/jquery-3.7.1.min.js"></script>
   <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
   <script>
     // Header - Hover GNB DropDown 메뉴

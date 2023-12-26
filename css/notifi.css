@@ -64,7 +64,7 @@ li {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: url(../images/wave-haikei.svg);
+   background: url(../images/main/wave-haikei.svg);
 }
 
 .header_container {
@@ -201,10 +201,6 @@ li {
    z-index: 4000;
 }
 
-.background_wrap {
-   background: url(../images/layered-waves-haikei.svg) no-repeat;
-}
-
 
 /* 메인부분 */
 
@@ -243,7 +239,7 @@ em {
 
 #search_btn {
    border: none;
-   background: url(../images/search.svg) no-repeat 50% 50%;
+   background: url(../images/main/images/search.svg) no-repeat 50% 50%;
    padding-right: 45px;
    text-indent: -9999px;
 }
@@ -328,7 +324,7 @@ em {
    height: 30px;
    margin-right: 5px;
    border: none;
-   background: url(../images/gong_prev.svg) no-repeat 50% 50%;
+   background: url(../images/main/gong_prev.svg) no-repeat 50% 50%;
    text-indent: -9999px;
 }
 
@@ -342,7 +338,7 @@ em {
    height: 30px;
    margin-left: 5px;
    border: none;
-   background: url(../images/gong_next.svg) no-repeat 50% 50%;
+   background: url(../images/main/gong_next.svg) no-repeat 50% 50%;
    text-indent: -9999px;
 }
 
