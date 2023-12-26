@@ -1,0 +1,241 @@
+/* common */
+html,
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* 회사 개요 */
+.cont-wrap {
+    margin: 0 0 auto 0;
+}
+
+.cont-wrap .introUI li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.cont.wrap.introUI li .img-txt {
+    box-sizing: border-box;
+}
+
+.cont-wrap .introUI li:first-child {
+    display: block;
+}
+
+.cont-wrap .introUI li:first-child .about-img {
+    margin: 20px 0 30px;
+
+}
+
+/* .cont-wrap .introUI li .about-txt p {
+    color: #666;
+} */
+
+.cont-wrap .introUI li:first-child .about-txt h3 {
+    text-align: left;
+    padding-bottom: 20px;
+    color: #dc2c34;
+    line-height: 55px;
+}
+
+.about-txt h3 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -1.2px;
+}
+
+.cont-wrap .introUI li:nth-child(2) {
+    margin-top: 50px;
+}
+
+.cont-wrap .introUI li:nth-child(2) .about-txt {
+    width: 600px;
+    padding: 20px 0 0 20px;
+}
+
+.cont-wrap .introUI li:nth-child(2) img {
+    width: 520px;
+}
+
+.cont-wrap .introUI li:nth-child(3) {
+    margin-top: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.cont-wrap .introUI li:nth-child(3) .about-txt {
+    width: 640px;
+    order: 2;
+    padding: 20px 0 0 0;
+}
+
+.cont-wrap .introUI li:nth-child(3) img {
+    width: 500px;
+    height: 550px;
+}
+
+.about-txt .red {
+    color: #dc2c34;
+    font-size: 16px;
+}
+
+/* 기업 이념 */
+
+.container.ph2 {
+    padding-top: 80px
+}
+
+.ph2 {
+    text-align: center;
+}
+
+.ph2 img {
+    border-radius: 20px;
+    width: 1200px;
+}
+
+.page-box {
+    height: 50px;
+    font-size: 26px;
+    background: #ffde00;
+    position: relative;
+    top: -5px;
+}
+
+.ph2 p {
+    position: relative;
+    top: 10px;
+}
+
+
+.philosophy {
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.inside {
+    max-width: 1330px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 0 75px;
+}
+
+
+.philosophy .item {
+    display: flex;
+    align-items: center;
+}
+
+.philosophy .inside h3 {
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -.8px;
+    text-align: center;
+}
+
+.philosophy .item.first {
+    padding-top: 50px;
+}
+
+.philosophy .item .tit {
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.philosophy .item .con {
+    max-width: 960px;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.philosophy .item .con .txt {
+    padding: 0 170px;
+    position: relative;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -0.8px;
+}
+
+.philosophy .inside .item .con .txt::before {
+    content: '[';
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    font-size: 170px;
+    font-weight: 200;
+    color: #E6E6E6;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.txt em {
+    font-weight: 500;
+    color: #dc2c34;
+    font-style: normal;
+}
+
+.philosophy .inside .item .con .txt::after {
+    content: ']';
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    font-size: 170px;
+    font-weight: 200;
+    color: #E6E6E6;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.philosophy .inside .item {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.philosophy .inside .item .con ul {
+    gap: 60px;
+    display: flex;
+}
+
+.philosophy .inside .item .con ul li {
+    padding: 80px;
+    border-radius: 100px;
+    background: #ffde00;
+}
+
+.philosophy .item .con ul li.icon1::before {
+    background: url(../images/ico_company1.svg) no-repeat 0 0 / 100% 100%;
+}
+
+.philosophy .item .con ul li.icon2::before {
+    background: url(../images/ico_company2.svg) no-repeat 0 0 / 100% 100%;
+}
+
+.philosophy .item .con ul li.icon3::before {
+    background: url(../images/ico_company3.svg) no-repeat 0 0 / 100% 100%;
+}
+
+.philosophy .item .con ul li::before {
+    width: 60px;
+    height: 60px;
+    content: '';
+    display: block;
+    margin: 0 auto;
+}
+
+.philosophy .item .con ul li span {
+    display: block;
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: -.64px;
+}
+
+.philosophy .item:last-child {
+    align-items: center;
+}

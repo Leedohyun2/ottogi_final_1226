@@ -1,0 +1,33 @@
+/* common */
+html,
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.mes {
+    padding-top: 20px;
+}
+
+.mes p {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.mes .n4 {
+    padding: 50px;
+    position: relative;
+    left: 850px;
+    padding-top: 112px;
+    width: 142px;
+}
+
+.mes .n4 .txt_box {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.txt_box {
+    margin-bottom: 10px;
+}
